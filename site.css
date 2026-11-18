@@ -1,0 +1,13 @@
+body {
+    margin: 24px;
+    font-size: 100px;
+    color: #f4e002;
+    background-image: url("Forest.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+h1 {text-align: center;
+    font-family: Marker Felt,fantasy;}
+}
