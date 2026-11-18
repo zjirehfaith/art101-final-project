@@ -8,7 +8,7 @@
 
 $("#start").clicked( function(){
 
-$("#something-to-show").show();
+$("#second-stage").show();
 $("#start-menu").hide();
 
 });
