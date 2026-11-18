@@ -2,12 +2,39 @@ body {
     margin: 24px;
     font-size: 100px;
     color: #f4e002;
-    background-image: url("Forest.jpeg");
+    background-image: url("redwood.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center relative;
     background-attachment: fixed;
+    alignment-baseline: central;
+div {}
 
 h1 {text-align: center;
     font-family: Marker Felt,fantasy;}
+
+button{
+    background: #8cbc49;
+    font: inherit;
+    color: #4c6726;
+    font-size: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    padding: 20px;
+    top: 0%;
+    left: 0%;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; }
+
+#result {
+    margin-top: 24px;
+    min-height: 48px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background: #f7f7f5;}
 }
