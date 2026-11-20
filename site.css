@@ -5,10 +5,11 @@ body {
     background-image: url("redwood.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center relative;
     background-attachment: fixed;
     alignment-baseline: central;
-div {}
+    text-align: center;
+}
+
 
 h1 {text-align: center;
     font-family: Marker Felt,fantasy;}
@@ -22,8 +23,8 @@ button{
     cursor: pointer;
     align-items: center;
     padding: 20px;
-    top: 0%;
-    left: 0%;
+    left: 20%;
+
 }
 
 .controls {
@@ -37,4 +38,3 @@ button{
     padding: 16px;
     border: 1px solid #ccc;
     background: #f7f7f5;}
-}
