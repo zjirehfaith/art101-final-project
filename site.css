@@ -12,7 +12,7 @@ body {
 
 
 h1 {text-align: center;
-    font-family: Marker Felt,fantasy;}
+    font-family: Marker Felt, fantasy;}
 
 button{
     background: #8cbc49;
@@ -39,3 +39,12 @@ button{
     border: 1px solid #ccc;
     background: #f7f7f5;}
 
+#question01-options { display: none; }
+
+#question02-options { display: none; }
+
+#question03-options { display: none; }
+
+#question04-options { display: none; }
+
+#question05-options { display: none; }
