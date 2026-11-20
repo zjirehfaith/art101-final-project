@@ -5,11 +5,12 @@
 // #second-stage { display: none; }
 
 
+$("#start").click( function(){
 
-$("#start").clicked( function(){
-
-$("#something-to-show").show();
+$("#second-stage").show();
 $("#start-menu").hide();
+$("#title").hide();
+$("#question").text('hi');
 
 });
 
