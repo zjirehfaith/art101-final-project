@@ -1,4 +1,4 @@
-
+let collegeScores= [0 , 0,0,0,0,0,0,0,0,0];
 
 // trm[late]
 
@@ -16,14 +16,18 @@ $("#question1").text('How Do you Spend The Weekend?');
 
 
 
-$("#party, #chill, #movies, #doomscroll").click( function(){
-
+$("#party, #chill, #movies, #doomscroll").click( function(e){
+    const college=$(this).attr("college");
+   collegeScores[college]=collegeScores[college]+1;
+   console.log(college);
 $("#question02-options").show();
 $("#question01-options").hide();
 $("#question1").hide();
 $("#question2").text('Whats Your Favorite Campus Hangout Spot?');
 
 });
+
+
 
 
 $("#squiggle, #koipond, #eastfield, #oakes, #nets, #dorm").click( function(){
@@ -64,3 +68,7 @@ $("#question4").hide();
 $("#question5").text('What / Where Is Your Favorite Study Spot?');
 
 });
+
+
+// let winner=collegeScores.indexOf(Math.max(collegeScores));
+// $("#result").css("background", winner+".jpg")
