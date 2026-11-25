@@ -80,3 +80,9 @@ $("#question5").text('What / Where Is Your Favorite Study Spot?');
 
 // let winner=collegeScores.indexOf(Math.max(collegeScores));
 // $("#result").css("background", winner+".jpg")
+
+// Below is what we need to put in HTML, but I removed it temporarily so that it doesn't show up on the HTML webpage
+// <div id="College 0">
+// <h1>You Got</h2>
+// <h2>Porter College!!</2>
+// <h3>You got this because you enjoy most of the stuff a student from that campus likes! This means you also may be artsy.</h3> 
